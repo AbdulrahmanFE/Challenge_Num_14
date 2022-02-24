@@ -43,8 +43,8 @@
     color: var(--GrayishBlue);
   }
   .container {
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
     margin-left: auto;
     margin-right: auto;
   }
@@ -94,8 +94,11 @@
     align-items: center;
     justify-content: space-between;
   }
+  .logo-img {
+    width: 80%;
+  }
   .try {
-    padding: 12px 50px;
+    padding: 15px 60px;
     color: var(--VeryDarkCyan);
     background-color: white;
     border-radius: 50px;
@@ -121,18 +124,19 @@
     width: 700px;
   }
   .landing {
-    padding: 75px 0 0;
+    padding: 70px 0 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 50px;
   }
   .title {
-    max-width: 450px;
+    max-width: 500px;
+    font-size: 2.5rem;
   }
   .description {
     color: var(--VeryDarkCyan);
-    margin: 25px 0;
+    margin: 25px 0 30px;
     max-width: 520px;
   }
   .get {
@@ -140,7 +144,7 @@
     color: white;
     padding: 20px 70px;
     border-radius: 50px;
-    font-weight: 400;
+    font-weight: 700;
     font-size: 14px;
     transition: 0.3s;
   }
@@ -186,7 +190,7 @@
   }
   .feature-section > .container {
     display: grid;
-    gap: 50px;
+    gap: 35px;
   }
   .feature-section .box {
     width: 95%;
@@ -194,10 +198,10 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 50px 25px 50px 75px;
+    padding: 60px 25px 50px 75px;
     background-color: #ffffff;
     border-radius: 13px;
-    box-shadow: 0px 0px 15px -2px rgb(0 37 46 / 16%);
+    box-shadow: 0px 0px 15px -3px rgb(0 37 46 / 16%);
   }
   @media (max-width: 991px) {
     .feature-section .box {
@@ -240,17 +244,17 @@
   .card {
     background-color: #ffffff;
     box-shadow: 0px 0px 15px -3px rgb(0 37 46 / 16%);
-    width: 45%;
+    width: 55%;
     position: relative;
-    margin: 0 auto -75px;
+    margin: 0 auto -80px;
     z-index: 1;
-    padding: 50px;
+    padding: 65px 50px;
     border-radius: 10px;
     text-align: center;
   }
   .card > .get {
-    margin: 25px auto 0;
-    padding: 20px 90px;
+    margin: 30px auto 0;
+    padding: 25px 90px;
     font-size: 17px;
     transition: 0.3s;
   }
@@ -272,12 +276,18 @@
   }
   footer {
     background-color: var(--VeryDarkCyan);
-    padding: 150px 0 50px;
+    padding: 175px 0 50px;
   }
   footer .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
+  }
+  @media (min-width: 1240px) {
+    footer > .container {
+      padding-left: 40px; 
+      padding-right: 40px;
+    }
   }
   @media (max-width: 991px) {
     footer .container {
@@ -354,7 +364,7 @@
   footer .copy {
     font-size: 13px;
     text-align: right;
-    padding-right: 20px;
+    padding-right: 40px;
   }
   @media (max-width: 991px) {
     .social {
@@ -365,4 +375,4 @@
       padding: 20px 0 0;
       margin: 0 auto;
     }
-  }''
+  }
