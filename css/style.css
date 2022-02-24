@@ -7,8 +7,8 @@
   --VeryDarkCyan: hsl(192, 100%, 9%);
   --GrayishBlue: hsl(208, 11%, 55%);
   /* Main Section Padding */
-  --paddingTopSection: 160px;
-  --paddingTBottomSection: 160px;
+  --paddingTopSection: 170px;
+  --paddingTBottomSection: 170px;
   }
 /* Global Rules */
   * {
@@ -74,7 +74,7 @@
   }
 /* Styling The Header */
   header {
-    padding: 50px 0;
+    padding: 50px 0 60px;
     background-color: var(--VeryPaleCyan);
     background-repeat: no-repeat;
     background-size: contain;
@@ -98,7 +98,7 @@
     width: 82%;
   }
   .try {
-    padding: 14px 60px;
+    padding: 15px 60px;
     color: var(--VeryDarkCyan);
     background-color: white;
     border-radius: 50px;
@@ -130,13 +130,18 @@
     align-items: center;
     gap: 50px;
   }
+  @media (min-width: 1250px) {
+    .landing .content {
+      margin-top: 5px;
+    }
+  }
   .title {
     max-width: 500px;
     font-size: 2.5rem;
   }
   .description {
     color: var(--VeryDarkCyan);
-    margin: 25px 0 35px;
+    margin: 25px 0 40px;
     max-width: 520px;
   }
   .get {
@@ -197,7 +202,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 75px 50px 75px 100px;
+    padding: 75px 25px 55px 115px;
     background-color: #ffffff;
     border-radius: 13px;
     box-shadow: 0px 0px 15px -3px rgb(0 37 46 / 16%);
