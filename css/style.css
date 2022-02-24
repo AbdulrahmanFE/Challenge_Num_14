@@ -8,7 +8,7 @@
   --GrayishBlue: hsl(208, 11%, 55%);
   /* Main Section Padding */
   --paddingTopSection: 160px;
-  --paddingTBottomSection: 150px;
+  --paddingTBottomSection: 160px;
   }
 /* Global Rules */
   * {
@@ -202,17 +202,17 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 50px 25px 70px 115px;
+    padding: 50px 25px 65px 115px;
     background-color: #ffffff;
     border-radius: 13px;
     box-shadow: 0px 0px 15px -3px rgb(0 37 46 / 16%);
   }
   @media (min-width: 1250px) {
-    .feature-section .box.box:nth-of-type(2) {
-      padding: 65px 25px 75px 115px;
+    .feature-section .box:nth-of-type(2) {
+      padding: 70px 25px 75px 115px;
     }
-    .feature-section .box.box:nth-of-type(3) {
-      padding: 45px 25px 95px 115px;
+    .feature-section .box:nth-of-type(3) {
+      padding: 70px 25px 70px 115px;
     }
   }
   @media (max-width: 991px) {
