@@ -8,7 +8,7 @@
   --GrayishBlue: hsl(208, 11%, 55%);
   /* Main Section Padding */
   --paddingTopSection: 160px;
-  --paddingTBottomSection: 160px;
+  --paddingTBottomSection: 150px;
   }
 /* Global Rules */
   * {
@@ -186,7 +186,7 @@
   }
 /* Styling The Feature Section */
   .feature-img {
-    width: 410px;
+    width: 400px;
   }
   .feature-section {
     padding-top: var(--paddingTopSection);
@@ -202,7 +202,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 75px 25px 55px 115px;
+    padding: 75px 25px 40px 115px;
     background-color: #ffffff;
     border-radius: 13px;
     box-shadow: 0px 0px 15px -3px rgb(0 37 46 / 16%);
@@ -252,12 +252,12 @@
     position: relative;
     margin: 0 auto -80px;
     z-index: 1;
-    padding: 50px;
+    padding: 55px;
     border-radius: 10px;
     text-align: center;
   }
   .card-title {
-    font-size: 1.9rem;
+    font-size: 2.1rem;
   }
   .card > .get {
     margin: 40px auto 0;
@@ -283,7 +283,7 @@
   }
   footer {
     background-color: var(--VeryDarkCyan);
-    padding: 175px 0 75px;
+    padding: 175px 0 100px;
   }
   footer .container {
     display: flex;
@@ -292,8 +292,8 @@
   }
   @media (min-width: 1240px) {
     footer > .container {
-      padding-left: 75px; 
-      padding-right: 75px;
+      padding-left: 65px; 
+      padding-right: 65px;
     }
   }
   @media (max-width: 991px) {
@@ -304,7 +304,7 @@
   }
   .footer-logo {
     margin-bottom: 15px;
-    width: 64%;
+    width: 63%;
   }
   @media (max-width: 767px) {
     .footer-logo {
