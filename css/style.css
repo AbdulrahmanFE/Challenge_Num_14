@@ -7,8 +7,8 @@
   --VeryDarkCyan: hsl(192, 100%, 9%);
   --GrayishBlue: hsl(208, 11%, 55%);
   /* Main Section Padding */
-  --paddingTopSection: 150px;
-  --paddingTBottomSection: 150px;
+  --paddingTopSection: 160px;
+  --paddingTBottomSection: 160px;
   }
 /* Global Rules */
   * {
@@ -95,15 +95,15 @@
     justify-content: space-between;
   }
   .logo-img {
-    width: 80%;
+    width: 82%;
   }
   .try {
-    padding: 15px 60px;
+    padding: 14px 60px;
     color: var(--VeryDarkCyan);
     background-color: white;
     border-radius: 50px;
     font-weight: 700;
-    font-size: 15px;
+    font-size: 14px;
   }
   @media (max-width: 767px) {
     .logo-img {
@@ -124,7 +124,7 @@
     width: 700px;
   }
   .landing {
-    padding: 70px 0 0;
+    padding: 65px 0 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -136,7 +136,7 @@
   }
   .description {
     color: var(--VeryDarkCyan);
-    margin: 25px 0 30px;
+    margin: 25px 0 35px;
     max-width: 520px;
   }
   .get {
@@ -145,7 +145,6 @@
     padding: 20px 70px;
     border-radius: 50px;
     font-weight: 700;
-    font-size: 14px;
     transition: 0.3s;
   }
   .get:hover {
@@ -190,7 +189,7 @@
   }
   .feature-section > .container {
     display: grid;
-    gap: 35px;
+    gap: 40px;
   }
   .feature-section .box {
     width: 95%;
@@ -198,7 +197,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 60px 25px 50px 75px;
+    padding: 75px 50px 75px 100px;
     background-color: #ffffff;
     border-radius: 13px;
     box-shadow: 0px 0px 15px -3px rgb(0 37 46 / 16%);
@@ -221,7 +220,7 @@
     max-width: 500px;
     line-height: 1.6;
   }
-  .box:nth-of-type(2) .fea-description{
+  .box:nth-of-type(3) .fea-description{
     max-width: 490px;
   }
   @media (max-width: 991px) {
@@ -285,8 +284,8 @@
   }
   @media (min-width: 1240px) {
     footer > .container {
-      padding-left: 40px; 
-      padding-right: 40px;
+      padding-left: 60px; 
+      padding-right: 60px;
     }
   }
   @media (max-width: 991px) {
@@ -364,7 +363,7 @@
   footer .copy {
     font-size: 13px;
     text-align: right;
-    padding-right: 40px;
+    padding-right: 50px;
   }
   @media (max-width: 991px) {
     .social {
