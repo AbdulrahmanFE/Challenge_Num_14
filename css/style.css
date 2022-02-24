@@ -7,8 +7,8 @@
   --VeryDarkCyan: hsl(192, 100%, 9%);
   --GrayishBlue: hsl(208, 11%, 55%);
   /* Main Section Padding */
-  --paddingTopSection: 170px;
-  --paddingTBottomSection: 170px;
+  --paddingTopSection: 160px;
+  --paddingTBottomSection: 160px;
   }
 /* Global Rules */
   * {
@@ -141,7 +141,7 @@
   }
   .description {
     color: var(--VeryDarkCyan);
-    margin: 25px 0 40px;
+    margin: 30px 0 35px;
     max-width: 520px;
   }
   .get {
@@ -186,7 +186,7 @@
   }
 /* Styling The Feature Section */
   .feature-img {
-    width: 400px;
+    width: 410px;
   }
   .feature-section {
     padding-top: var(--paddingTopSection);
@@ -252,13 +252,16 @@
     position: relative;
     margin: 0 auto -80px;
     z-index: 1;
-    padding: 65px 50px;
+    padding: 50px;
     border-radius: 10px;
     text-align: center;
   }
+  .card-title {
+    font-size: 1.9rem;
+  }
   .card > .get {
-    margin: 30px auto 0;
-    padding: 25px 90px;
+    margin: 40px auto 0;
+    padding: 30px 100px;
     font-size: 17px;
     transition: 0.3s;
   }
@@ -280,7 +283,7 @@
   }
   footer {
     background-color: var(--VeryDarkCyan);
-    padding: 175px 0 50px;
+    padding: 175px 0 75px;
   }
   footer .container {
     display: flex;
@@ -289,8 +292,8 @@
   }
   @media (min-width: 1240px) {
     footer > .container {
-      padding-left: 60px; 
-      padding-right: 60px;
+      padding-left: 75px; 
+      padding-right: 75px;
     }
   }
   @media (max-width: 991px) {
